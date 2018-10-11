@@ -1,0 +1,388 @@
+/* All CSS styles go here */
+.container{
+    width: 500px;
+    height: 600px;
+    background: #272828;
+    position: absolute;
+    left: 50%;
+    margin-left: -250px;
+    top: 50%;
+    margin-top: -300px;
+    overflow: hidden;
+}
+.strip{
+    width: 600px;
+    height: 8px;
+    background: #131414;
+    position: absolute;
+    opacity: 0.3;
+}
+.strip2{
+    width: 600px;
+    height: 5px;
+    background: #131414;
+    position: absolute;
+    opacity: 0.3;
+}
+.flip{
+    width: 285px;
+    height: 285px;
+    position: absolute;
+    left: 50%;
+    margin-left: -147.5px;
+    top: 50%;
+    margin-top: -147.5px;
+    transform: rotate(45deg);
+}
+.logo{
+    width: 285px;
+    height: 285px;
+    border: none;
+    /*background: #272828;*/
+    transform: rotate(45deg);
+    left: 50%;
+    margin-left: -147.5px;
+    top: 50%;
+    margin-top: -147.5px;
+    position: absolute;
+    padding: 5px;
+    text-align: center;
+}
+.logo2{
+    width: 285px;
+    height: 285px;
+    /*border: solid 20px;*/
+    /*background: #ffff99;*/
+    transform: rotate(45deg);
+    left: 50%;
+    margin-left: -147.5px;
+    top: 50%;
+    margin-top: -147.5px;
+    position: absolute;
+    /*padding: 5px;*/
+    text-align: center;
+    /*border-color: orangered #f4ee9a dodgerblue greenyellow;*/
+}
+.head{
+    backface-visibility: hidden;
+    transform: rotateX(0deg);
+    transition: transform 0.5s;
+}
+.tail{
+    backface-visibility: hidden;
+    transform: rotateX(180deg);
+    transition: transform 0.5s;
+}
+.line1{
+    background: greenyellow;
+    opacity: 0.9;
+    left: -132.5px;
+    top: 131.5px;
+    position: absolute;
+    width: 295px;
+    height: 30px;
+    transform: rotate(90deg);
+
+}
+.line2{
+    background: #f7f2ad;
+    opacity: 0.9;
+    left: 132px;
+    top: 132px;
+    position: absolute;
+    width: 295px;
+    height: 30px;
+    transform: rotate(90deg);
+}
+.line3{
+    background: #ef590e;
+    opacity: 0.9;
+    left: 0px;
+    top: -2.5px;
+    position: absolute;
+    width: 295px;
+    height: 30px;
+    transform: rotate(0deg);
+}
+.line4{
+    background: #1ea8ff;
+    opacity: 0.9;
+    left: 0px;
+    top: 265px;
+    position: absolute;
+    width: 295px;
+    height: 30px;
+    transform: rotate(0deg);
+}
+.line5{
+    background: greenyellow;
+    left: -132.5px;
+    top: -431.5px;
+    position: absolute;
+    width: 295px;
+    height: 30px;
+    transform: rotate(90deg);
+    opacity: 0;
+}
+.line6{
+    background: #f7f2ad;
+    left: 132px;
+    top: 832px;
+    position: absolute;
+    width: 295px;
+    height: 30px;
+    transform: rotate(90deg);
+    opacity: 0;
+}
+.line7{
+    background: #ef590e;
+    left: 600px;
+    top: -2.5px;
+    position: absolute;
+    width: 295px;
+    height: 30px;
+    transform: rotate(0deg);
+    opacity: 0;
+}
+.line8{
+    background: #1ea8ff;
+    left: -600px;
+    top: 265px;
+    position: absolute;
+    width: 295px;
+    height: 30px;
+    transform: rotate(0deg);
+    opacity: 0;
+}
+.title{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    margin-left: -150px;
+    top: 50%;
+    margin-top: -100px;
+    /*background: #ffff99;*/
+    transform: rotate(-45deg);
+}
+.ht{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 45px;
+    color: white;
+    font-weight: bolder;
+    line-height: .9em;
+    text-indent: 1em;
+
+}
+.and{
+    color: orangered;
+}
+.desgin{
+    font-size: 10px;
+}
+.flip:hover .line1 {
+    left: -132.5px;
+    top: 631.5px;
+    transition: 1s;
+    transition-delay: 1s;
+}
+.flip:hover .line2{
+    left: 132px;
+    top: -632px;
+    transition: 1s;
+    transition-delay: 1s;
+}
+.flip:hover .line3{
+    left: -600px;
+    top: -2.5px;
+    transition: 1s;
+    transition-delay: 1s;
+
+}
+.flip:hover .line4{
+    left: 600px;
+    top: 265px;
+    transition: 1s;
+    transition-delay: 1s;
+}
+.flip:hover .line5{
+    left: -132.5px;
+    top: 131.5px;
+    transition: 1s;
+    transition-delay: 1s;
+    opacity: 0.9;
+}
+.flip:hover .line6{
+    left: 132px;
+    top: 132px;
+    transition: 1s;
+    transition-delay: 1s;
+    opacity: 0.9;
+}
+.flip:hover .line7{
+    left: 0px;
+    top: -2.5px;
+    transition: 1s;
+    transition-delay: 1s;
+    opacity: 0.9;
+}
+.flip:hover .line8{
+    left: 0px;
+    top: 265px;
+    transition: 1s;
+    transition-delay: 1s;
+    opacity: 0.9;
+}
+.flip:hover .head{
+    transform: rotateX(-180deg);
+}
+.flip:hover .tail{
+    transform: rotateY(0deg);
+}
+.welcome{
+    font-size: 9px;
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+    line-height: 2.5em;
+    /*font-weight: bolder;*/
+    word-spacing: .5em;
+    /*letter-spacing: .1em;*/
+    color: white;
+}
+.red{
+    font-size: 9px;
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+    line-height: 2.5em;
+    /*font-weight: bolder;*/
+    word-spacing: .5em;
+    color: #f21313;
+    /*letter-spacing: .1em;*/
+}
+.green{
+    font-size: 9px;
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+    line-height: 2.5em;
+    /*font-weight: bolder;*/
+    word-spacing: .5em;
+    color: greenyellow;
+    /*letter-spacing: .1em;*/
+}
+
+.topleft1{
+    left: -300px;
+    top: -300px;
+    /*opacity: 0;*/
+    animation: t-1 3s infinite ease;
+    /*animation-delay: 2.5s;*/
+
+}
+.topleft2{
+    left: 480px;
+    top: -600px;
+    animation: t-2 3s infinite ease;
+    animation-delay: 0.3s;
+}
+.topleft3{
+    left: -900px;
+    top: -900px;
+    animation: t-3 3s infinite ease;
+    animation-delay: .7s;
+}
+.topleft4{
+    left: 500px;
+    top: 100px;
+    animation: t-4 3s infinite ease;
+    animation-delay: 1s;
+}
+.topleft5{
+    left: 500px;
+    top: -100px;
+    animation: t-5 3s infinite ease-out;
+    animation-delay: .5s;
+}
+.topleft6{
+    left: -700px;
+    top: -50px;
+    animation: t-6 3s infinite ease;
+    animation-delay: 1.7s;
+
+}
+.topleft7{
+    left: -600px;
+    top: -100px;
+    animation: t-7 3s infinite ease;
+    animation-delay: .7s;
+}
+.topleft8{
+    left: 900px;
+    top: -600px;
+    animation: t-8 3s infinite ease;
+    animation-delay: .3s;
+}
+.topleft9{
+    left: 400px;
+    top: -200px;
+    animation: t-9 3s infinite ease;
+}
+
+@keyframes t-1 {
+    0% { transform: rotate(-135deg); left: -300px; top: -300px;}
+    /*50% {transform:  rotate(-45deg); left: 10px; top:90px;}*/
+    100% {transform:  rotate(-135deg); left: 580px; top: 580px; }
+}
+@keyframes t-2 {
+    0% { transform: rotate(-45deg); left: 480px; top: -600px}
+    100% {transform:  rotate(-45deg);  left: -550px; top: 430px; }
+}
+@keyframes t-3 {
+    0% { transform: rotate(-135deg); left: -1100px; top: -900px;}
+    /*50% {transform:  rotate(-45deg); left: 10px; top:90px;}*/
+    100% {transform:  rotate(-135deg); left: 600px; top: 800px; }
+}
+@keyframes t-4 {
+    0% { transform: rotate(-45deg); left: 500px; top: 100px}
+    100% {transform:  rotate(-45deg);  left: -200px; top: 800px; }
+}
+@keyframes t-5 {
+    0% { transform: rotate(-45deg); left: 500px; top: -100px}
+    100% {transform:  rotate(-45deg);  left: -500px; top: 900px; }
+}
+@keyframes t-6 {
+    0% { transform: rotate(-135deg); left: -700px; top: -50px;}
+    /*50% {transform:  rotate(-45deg); left: 10px; top:90px;}*/
+    100% {transform:  rotate(-135deg); left: 350px; top: 1000px; }
+}
+@keyframes t-7 {
+    0% { transform: rotate(-135deg); left: -600px; top: -100px;}
+    /*50% {transform:  rotate(-45deg); left: 10px; top:90px;}*/
+    100% {transform:  rotate(-135deg); left: 500px; top: 1000px; }
+}
+@keyframes t-8 {
+    0% { transform: rotate(-45deg); left: 900px; top: -600px}
+    100% {transform:  rotate(-45deg);  left: -600px; top: 900px; }
+}
+@keyframes t-9 {
+    0% { transform: rotate(-45deg); left: 400px; top: -200px}
+    100% {transform:  rotate(-45deg);  left: -600px; top: 800px; }
+}
+
+
+
+footer{
+    position: relative;
+    text-align: center;
+    top: 600px;
+    left: 0px;
+    /*background: #ffff99;*/
+}
+
+.author{
+    text-align: center;
+    color: black;
+    opacity: 0.4;
+    font-family: 'Niramit', sans-serif;
+    font-weight: bold;
+}
